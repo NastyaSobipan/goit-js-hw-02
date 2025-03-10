@@ -19,13 +19,6 @@ function getShippingCost(country) {
   return `Shipping to ${country} will cost ${price} credits`;
 }
 
-getShippingCost("Australia");
-getShippingCost("Germany");
-getShippingCost("China");
-getShippingCost("Chile");
-getShippingCost("Jamaica");
-getShippingCost("Sweden");
-
 console.log(getShippingCost("Australia"));
 console.log(getShippingCost("Germany"));
 console.log(getShippingCost("China"));
